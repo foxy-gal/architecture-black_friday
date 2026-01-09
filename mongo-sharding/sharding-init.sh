@@ -55,7 +55,8 @@ EOF
 ###
 # Инициализируем роутер
 ###
-
+echo "Ждем 20 секунд для инициализации..."
+sleep 20
 echo "Инициализируем роутер..."
 
 docker compose exec -T mongos_router mongosh --port 27018 --quiet <<EOF
