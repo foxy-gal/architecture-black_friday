@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
-        <mxGraphModel dx="936" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="636" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,29 +10,10 @@
                 <mxCell id="46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="220" y="190" width="420" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="90" width="120" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="48" value="&lt;b&gt;Router&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mongos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="210" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="67">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="525" y="334" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="61">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="360" y="353.38461538461536" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="51" value="&lt;b&gt;Router&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mongos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="470" y="210" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="370" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="48">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="53" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="51">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="&lt;div&gt;&lt;b&gt;microservice&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -43,7 +24,7 @@
                         <mxPoint x="330" y="334" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="67">
+                <mxCell id="57" style="edgeStyle=none;html=1;" edge="1" parent="1" source="48" target="67">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="495" y="353.38461538461536" as="targetPoint"/>
                     </mxGeometry>
