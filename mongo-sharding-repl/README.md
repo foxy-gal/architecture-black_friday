@@ -1,6 +1,6 @@
-# mongo-sharding
+# mongo-sharding-repl
 
-## Как запустить (из папки mongo-sharding)
+## Как запустить (из папки mongo-sharding-repl)
 
 Запускаем mongodb и приложение
 
@@ -11,6 +11,6 @@ docker compose up -d
 Инициализируем/заполняем и проверяем кластер mongodb
 
 ```shell
-./sharding-init.sh
+./sharding-repl-init.sh
 ```
 
