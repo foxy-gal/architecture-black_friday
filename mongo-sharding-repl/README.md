@@ -14,3 +14,4 @@ docker compose up -d
 ./sharding-repl-init.sh
 ```
 
+В конце скрипта выполняются проверки в соответствии с заданием

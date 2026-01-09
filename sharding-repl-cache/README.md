@@ -1,6 +1,6 @@
 # sharding-repl-cache
 
-## Как запустить (из папки mongo-sharding-repl)
+## Как запустить (из папки sharding-repl-cache)
 
 Запускаем mongodb и приложение
 
@@ -13,4 +13,6 @@ docker compose up -d
 ```shell
 ./sharding-repl-cache-init.sh
 ```
+
+В конце скрипта выполняются проверки в соответствии с заданием
 
