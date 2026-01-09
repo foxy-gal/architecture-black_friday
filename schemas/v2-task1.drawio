@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
-        <mxGraphModel dx="636" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="636" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,7 +10,7 @@
                 <mxCell id="46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="220" y="190" width="420" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="&lt;b&gt;Router&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mongos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="48" value="&lt;b&gt;Router&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mongos_router&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="370" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="55" target="48">
@@ -29,7 +29,7 @@
                         <mxPoint x="495" y="353.38461538461536" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="58" value="&lt;b&gt;configSrv&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="58" value="&lt;div&gt;&lt;b&gt;Config Server&lt;/b&gt;&lt;/div&gt;&lt;b&gt;config_srv&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="700" y="274" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" style="edgeStyle=none;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="45" target="58">
@@ -49,19 +49,19 @@
                 <mxCell id="63" style="edgeStyle=none;html=1;" edge="1" parent="1" source="64" target="66">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="Primary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="64" value="Primary&lt;div&gt;shard1_1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="295" y="450" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="Secondary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="65" value="Secondary&lt;div&gt;shard1_2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="250" y="530" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="Secondary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="66" value="Secondary&lt;div&gt;shard1_3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="340" y="530" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="67" value="&lt;div&gt;&lt;b&gt;Database&lt;/b&gt;&lt;/div&gt;MongoDB shard2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
                     <mxGeometry x="440" y="370" width="180" height="266" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="Primary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="68" value="Primary&lt;div&gt;shard2_1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="495" y="450" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;html=1;" edge="1" parent="1" source="68" target="72">
@@ -70,10 +70,10 @@
                 <mxCell id="70" style="edgeStyle=none;html=1;" edge="1" parent="1" source="68" target="71">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="Secondary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="71" value="Secondary&lt;div&gt;shard2_2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="450" y="530" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="Secondary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="72" value="Secondary&lt;div&gt;shard2_3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="540" y="530" width="70" height="30" as="geometry"/>
                 </mxCell>
             </root>
