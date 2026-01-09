@@ -1,6 +1,6 @@
 # mongo-sharding
 
-## Как запустить
+## Как запустить (из папки mongo-sharding)
 
 Запускаем mongodb и приложение
 
