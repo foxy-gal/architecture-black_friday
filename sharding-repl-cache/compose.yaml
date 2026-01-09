@@ -201,7 +201,7 @@ services:
       - redis_data:/data
 
   pymongo_api:
-    image: kazhem/pymongo-api:1.0.0
+    image: kazhem/pymongo_api:1.0.0
     container_name: pymongo_api
     depends_on:
       - mongos_router
